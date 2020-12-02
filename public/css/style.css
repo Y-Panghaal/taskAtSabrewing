@@ -1,0 +1,33 @@
+fieldset {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+fieldset legend {
+    text-align: left;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0 10px;
+    /*border: 1px solid #ced4da;*/
+    /*border-radius: 0.25rem;*/
+}
+span.mandatory {
+    color: #aa0000;
+}
+
+.ui-slider {
+    margin-top: 15px;
+    background: #ced4da;
+    height: 5px;
+}
+
+.ui-slider-range {
+    background: #a3a3a3;
+}
+
+.ui-slider-handle {
+    background: #c1c5c9;
+    border-radius: 50%;
+    top: -7px !important;
+}
